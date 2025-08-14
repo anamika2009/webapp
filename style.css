@@ -1,49 +1,57 @@
 body {
-    background-image: url('bg.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: Arial, sans-serif;
-   
+
+    background: linear-gradient(135deg, #0e0214, #6e5b91);
 }
-h1,p{
-    color:white;
+
+h1 {
+    text-align: center;
+    color: white;
 }
+
+p {
+    color: white;
+}
+
 .container {
-    position:absolute;
-        top:50%;
-        left:50%;
-        transform:translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-      
+
 }
 
 form {
     margin-top: 20px;
 }
- .name,.email,.password{
-    width: 100%;
+
+.name,
+.email,
+.password {
+    height: 10px;
+    width: 390px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #30a161;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;;
+    cursor: pointer;
 }
+
 button:hover {
     background-color: #0056b3;
 }
-a{
-    color: yellowgreen;
+
+a {
+    color: yellow;
 }
